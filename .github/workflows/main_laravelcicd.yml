@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'LaravelCICD'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2E275311C81046EBA4C643083ECCE9E9 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F78D846014A442B080ABFEB6FA793AA6 }}
           package: .
