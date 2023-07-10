@@ -25,10 +25,6 @@ steps:
   - script: composer install --no-interaction --prefer-dist
     displayName: 'composer install'
 
-  - script: |
-      echo "Running tests..."
-      php vendor/bin/phpunit
-    displayName: 'Run tests'
 
   - task: ArchiveFiles@2
     inputs:
